@@ -12,7 +12,7 @@ new ResizeObserver(fitRitual).observe(ritual);
 document.fonts.ready.then(fitRitual);
 fitRitual();
 // Relative to this page, including /autumn-vocabulary-guide/ on GitHub Pages.
-const GUIDE_PATH='files/vocabulary-guide.pdf';
+const GUIDE_PATH='files/Autumn%20vocabulary%20pack.pdf';
 async function getGuide(){
   const response=await fetch(GUIDE_PATH);
   if(!response.ok)throw new Error('Guide unavailable');
