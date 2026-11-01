@@ -24,5 +24,5 @@ button.addEventListener('click', () => {
   link.click();
   link.remove();
 
-  status.textContent = 'Завантаження розпочато. Затишного вечора!';
+  status.textContent = 'Файл передано браузеру для збереження';
 });
